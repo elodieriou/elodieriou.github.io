@@ -99,6 +99,18 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   line-height: 26px;
   margin-bottom: 0; }
 
+.about-portfolio {
+    margin-top: 30px;
+}
+
+.title-about-me {
+    font-size: 25px;
+}
+
+.situation {
+    margin-top: 30px;
+}
+
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -368,6 +380,11 @@ button:focus {
   font-size: 20px;
   color: #fff; }
 
+.logo-facilab {
+    width: 200px;
+    height: 200px;
+}
+
 .menu-bg {
   background: #5533ff;
   background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%) !important;
@@ -519,7 +536,8 @@ button:focus {
         background: #fff;
         color: #3ecf8e; }
   .hero-area .intro-img {
-    padding: 180px 0 0px; }
+    padding: 180px 0 0px;
+    width: 800px;}
     .hero-area .intro-img img {
       display: block;
       height: auto;
@@ -752,7 +770,7 @@ button:focus {
 #showcase {
   padding-bottom: 375px; }
   #showcase .right-position {
-    position: relative; }
+    position: relative;}
   #showcase .showcase-area {
     position: absolute;
     width: 97%;
@@ -1395,8 +1413,8 @@ button:focus {
 #footer-Content {
   padding-top: 130px;
   background: #180e29; }
-  #footer-Content .footer-logo img {
-    padding-top: 70px; }
+  #footer-content .container p {
+  text-align: center;}
   #footer-Content .form-control:focus {
     outline: none;
     box-shadow: none;
