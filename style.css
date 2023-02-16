@@ -25,6 +25,7 @@
     --font-family-title: 'Swanky and Moo Moo', cursive;
 
     --font-size-m: 1.2rem;
+    --font-size-l: 1.4rem;
 }
 
 /* Bases
@@ -51,6 +52,14 @@ html {
 
 .font-size-m {
     font-size: var(--font-size-m);
+}
+
+.font-size-l {
+    font-size: var(--font-size-l);
+}
+
+.color-red {
+    color: var(--color-red);
 }
 
 /* Burger button
