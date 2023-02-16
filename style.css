@@ -58,9 +58,10 @@ html {
 
 @media all and (max-width: 575px) {
 
-    .border-black:hover {
+    #burger-btn:checked ~ #burger-icon .border-black {
         border-color: var(--color-blue) !important;
     }
+
 
     #burger-btn:checked ~ #burger-icon i {
         color: var(--color-blue)
@@ -77,4 +78,3 @@ html {
 .nav-link:hover {
     color: var(--color-blue) !important;
 }
-
