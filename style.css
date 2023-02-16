@@ -87,3 +87,18 @@ html {
 .nav-link:hover {
     color: var(--color-blue) !important;
 }
+
+/*** 2. SECTION HERO ***/
+
+h1 {
+    color: var(--color-blue);
+    font-family: var(--font-family-title);
+}
+
+.padding {
+    padding-left: 2.8rem;
+}
+
+.margin {
+    margin-left: 2.8rem;
+}
