@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be5f97d9-2d5f-423a-88f3-3415aff03bbd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/LineIcons.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/LineIcons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.map" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/main.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/nivo-lightbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/owl.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/LineIcons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/fonts/LineIcons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/LineIcons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/fonts/LineIcons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/LineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/fonts/LineIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/LineIcons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/fonts/LineIcons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/add-request.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/add-request.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg/bg-subs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/bg/bg-subs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg/home2-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/bg/home2-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg/testimonial-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/bg/testimonial-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/avater-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/avater-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/blog-1-big.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/blog-1-big.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/ta-avater.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/blog/ta-avater.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/business-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/business/business-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/choose-profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/choose-profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contact/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/contact/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/detail-request.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/detail-request.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/footer-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/form-applicant.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/form-applicant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/form-fablab.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/form-fablab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hero-area.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/hero-area.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/intro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/list-request.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/list-request.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/login-page.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/login-page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_facilab.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/logo_facilab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/showcase/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/showcase/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/showcase/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/showcase/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/showcase/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/showcase/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/showcase/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/showcase/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/showcase/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/showcase/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/team/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/team/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/team/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/team/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/team/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/team/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/team/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/team/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/testimonial/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/img/testimonial/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/jquery-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/jquery.easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/jquery.nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/nivo-lightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/nivo-lightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/owl.carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrolling-nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/js/scrolling-nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/demo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/movie/demo.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/save_info.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LAuBtdjqPCLUKmH6YbAWnaizwt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/elodie/elodieriou.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing_page" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be5f97d9-2d5f-423a-88f3-3415aff03bbd" name="Changes" comment="" />
+      <created>1675326075174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675326075174</updated>
+      <workItem from="1676535160374" duration="12172000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
