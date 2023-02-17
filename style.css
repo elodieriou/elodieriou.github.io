@@ -24,6 +24,7 @@
     --font-family-base: 'Source Sans Pro', sans-serif;
     --font-family-title: 'Swanky and Moo Moo', cursive;
 
+    --font-size-s: 1rem;
     --font-size-m: 1.2rem;
     --font-size-l: 1.4rem;
 }
@@ -65,10 +66,17 @@ html {
 /* Burger button
     ============================= */
 
-@media all and (max-width: 575px) {
+.custom-burger-icon {
+    color: var(--color-blue);
+    font-size: var(--font-size-l);
+}
 
-    #burger-btn:checked ~ #burger-icon .border-black {
-        border-color: var(--color-blue) !important;
+@media all and (max-width: 767px) {
+
+    #burger-btn:checked ~ #burger-icon .custom-burger-icon {
+        border-color: var(--color-blue);
+        background-color: var(--color-blue);
+        color: var(--color-white);
     }
 
 
@@ -80,6 +88,10 @@ html {
         display: none;
     }
 }
+
+/* Logo
+    ============================= */
+
 
 /* Navbar
     ============================= */
@@ -101,4 +113,17 @@ h1 {
 
 .margin {
     margin-left: 2.8rem;
+}
+
+.badge {
+    text-transform: uppercase;
+    font-size: var(--font-size-m);
+    background-color: var(--color-blue);
+    width: min-content;
+}
+
+@media all and (max-width: 767px) {
+    #biography {
+        display: none !important;
+    }
 }

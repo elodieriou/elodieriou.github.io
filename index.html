@@ -14,37 +14,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3fc762624a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js"></script>
 </head>
 <body>
-<header class="header">
+<header class="header pb-5">
     <div class="container">
         <!-- SECTION HEADER BAR -->
         <section class="d-flex m-4">
             <!-- BURGER MENU -->
             <input class="d-none" type="checkbox" id="burger-btn">
-            <label class="d-block d-sm-none" id="burger-icon" for="burger-btn">
-                <i class="border border-black rounded-1 p-2 fa-solid fa-bars"></i>
+            <label class="d-block d-md-none" id="burger-icon" for="burger-btn">
+                <i class="custom-burger-icon rounded-1 p-2 fa-solid fa-bars"></i>
             </label>
             <!-- CONTENT -->
-            <div id="header-content" class="w-100 d-flex flex-column flex-sm-row align-items-center flex-sm-row align-items-center justify-content-sm-between">
+            <div id="header-content" class="w-100 d-flex flex-column flex-md-row align-items-center justify-content-md-between">
                 <!-- LOGO -->
                 <div>
-                    <a class="d-flex flex-column flex-sm-row align-items-center" href="#">
+                    <a class="d-flex flex-column flex-md-row align-items-center" href="#">
                         <img src="images/logo-black.png" alt="Élodie Riou logo" class="mb-3 mb-sm-0" width="" height="">
                     </a>
                 </div>
                 <!-- NAVBAR -->
                 <nav class="position-relative">
-                    <ul class="nav d-flex flex-column flex-sm-row align-items-center font-size-m mt-3">
+                    <ul class="nav d-flex flex-column flex-md-row align-items-center font-size-m mt-3">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Accueil</a>
+                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Biographie</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Situation</a>
+                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Situation professionnelle</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Expériences</a>
@@ -57,48 +59,82 @@
             </div>
         </section>
         <!-- SECTION HERO -->
-        <section class="w-100 d-flex flex-column flex-sm-row justify-content-around">
-            <div class="first-line d-flex flex-column my-5">
-                <div class="d-flex justify-content-around py-3 color-red">
-                    <i class="fa-solid fa-motorcycle font-size-l"></i>
-                    <i class="fa-solid fa-lightbulb font-size-l"></i>
-                </div>
-                <div class="d-flex py-3">
-                    <div class="col-2 d-flex flex-column justify-content-around align-items-center px-3 color-red">
-                        <i class="fa-solid fa-book font-size-l"></i>
-                        <i class="fa-solid fa-people-group font-size-l"></i>
+        <section class="w-100 d-flex flex-column align-items-center">
+            <div class="w-100 d-flex flex-column flex-md-row justify-content-around">
+                <div class="d-flex flex-column my-5">
+                    <div class="d-flex justify-content-around py-3">
+                        <a tabindex="0" class="fa-solid fa-motorcycle font-size-l color-red text-decoration-none"
+                           data-bs-container="body" data-bs-toggle="popover"
+                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-content="Mon père m'a transmis cette passion, cette liberté et cette adrénaline de manière responsable"></a>
+                        <a tabindex="0" class="fa-solid fa-lightbulb font-size-l color-red text-decoration-none"
+                           data-bs-container="body" data-bs-toggle="popover"
+                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-content="in progress"></a>
                     </div>
-                    <img src="images/me.png" alt="ma photo" class="col-8" height="" width="">
-                    <div class="col-2 d-flex flex-column justify-content-around align-items-center px-3 color-red">
-                        <i class="fa-solid fa-code font-size-l"></i>
-                        <i class="fa-solid fa-gamepad font-size-l"></i>
+                    <div class="d-flex py-3">
+                        <div class="col-2 d-flex flex-column justify-content-around align-items-center px-3 color-red">
+                            <a tabindex="0" class="fa-solid fa-book font-size-l color-red text-decoration-none"
+                               data-bs-container="body" data-bs-toggle="popover"
+                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-content="in progress"></a>
+                            <a tabindex="0" class="fa-solid fa-people-group font-size-l color-red text-decoration-none"
+                               data-bs-container="body" data-bs-toggle="popover"
+                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-content="in progress"></a>
+                        </div>
+                        <img src="images/me.png" alt="ma photo" class="col-8" height="" width="">
+                        <div class="col-2 d-flex flex-column justify-content-around align-items-center px-3 color-red">
+                            <a tabindex="0" class="fa-solid fa-code font-size-l color-red text-decoration-none"
+                               data-bs-container="body" data-bs-toggle="popover"
+                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-content="in progress"></a>
+                            <a tabindex="0" class="fa-solid fa-gamepad font-size-l color-red text-decoration-none"
+                               data-bs-container="body" data-bs-toggle="popover"
+                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-content="in progress"></a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around py-3 color-red">
+                        <a tabindex="0" class="fa-solid fa-film font-size-l color-red text-decoration-none"
+                           data-bs-container="body" data-bs-toggle="popover"
+                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-content="in progress"></a>
+                        <a tabindex="0" class="fa-solid fa-cat font-size-l color-red text-decoration-none"
+                           data-bs-container="body" data-bs-toggle="popover"
+                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-content="in progress"></a>
                     </div>
                 </div>
-                <div class="d-flex justify-content-around py-3 color-red">
-                    <i class="fa-solid fa-film font-size-l"></i>
-                    <i class="fa-solid fa-cat font-size-l"></i>
+
+                <div id="biography" class="d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-column">
+                        <div class="padding">
+                            <h1>Élodie RIOU</h1>
+                            <p><strong>31 ans</strong></p>
+                            <img src="images/line.png" alt="separate line" height="1" width="129">
+                        </div>
+                        <div class="d-flex my-4">
+                            <img src="images/{.png" alt="curly braces open">
+                            <div class="mt-4">
+                                <p><strong>Localisation :</strong> Laval (53)</p>
+                                <p><strong>Passions :</strong> moto, manga, randonnée, VTT, jeux viédos, astrologie, animaux</p>
+                                <p><strong>Projets :</strong> dev appli mobile</p>
+                            </div>
+                            <img src="images/}.png" alt="curly braces close">
+                        </div>
+                        <img src="images/line.png" alt="separate line" class="margin" height="1" width="129">
+                        <p class="badge mt-4 margin">En reconversion professionnelle</p>
+                    </div>
                 </div>
+            </div>
+            <div>
+                <blockquote>
+                    <q> Always leave the campground cleaner than you found it </q>
+                    <cite>- Robert C. Martin (Uncle Bob)</cite>
+                </blockquote>
             </div>
 
-            <div class="d-flex flex-column justify-content-center">
-                <div class="d-flex flex-column">
-                    <div class="padding">
-                        <h1>Élodie RIOU</h1>
-                        <p><strong>31 ans</strong></p>
-                        <img src="images/line.png" alt="separate line" height="1" width="129">
-                    </div>
-                    <div class="d-flex my-4">
-                        <img src="images/{.png" alt="curly braces open">
-                        <div class="mt-4">
-                            <p><strong>Localisation :</strong> Laval (53)</p>
-                            <p><strong>Passions :</strong> moto, manga, randonnée, VTT, jeux viédos, astrologie, animaux</p>
-                            <p><strong>Projets :</strong> dev appli mobile</p>
-                        </div>
-                        <img src="images/}.png" alt="curly braces close">
-                    </div>
-                    <img src="images/line.png" alt="separate line" class="margin" height="1" width="129">
-                </div>
-            </div>
         </section>
     </div>
 
