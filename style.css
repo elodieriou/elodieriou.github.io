@@ -123,7 +123,7 @@ h1 {
 }
 
 @media all and (max-width: 767px) {
-    #biography {
+    /*#biography {
         display: none !important;
-    }
+    }*/
 }
