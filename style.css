@@ -126,6 +126,16 @@ html {
     color: var(--color-blue) !important;
 }
 
+/* Top button
+    ============================= */
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
+
 /*** 2. SECTION HERO ***/
 
 h1 {
