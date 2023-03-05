@@ -65,6 +65,10 @@ html {
     color: var(--color-red);
 }
 
+.color-black {
+    color: var(--color-black);
+}
+
 .bg-black {
     background-color: var(--color-black) !important;
 }
@@ -156,8 +160,6 @@ h1 {
     font-size: var(--font-size-s);
     width: min-content;
 }
-
-
 
 @media all and (max-width: 991px) {
     .badge {
