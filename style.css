@@ -24,6 +24,7 @@
     --font-family-base: 'Source Sans Pro', sans-serif;
     --font-family-title: 'Swanky and Moo Moo', cursive;
 
+    --font-size-xs: 0.8rem;
     --font-size-s: 1rem;
     --font-size-m: 1.2rem;
     --font-size-l: 1.4rem;
@@ -84,6 +85,10 @@ html {
     cursor: pointer;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Burger button
     ============================= */
 
@@ -140,6 +145,17 @@ h1 {
     text-transform: uppercase;
     font-size: var(--font-size-s);
     width: min-content;
+}
+
+
+
+@media all and (max-width: 991px) {
+    .badge {
+        font-size: var(--font-size-xs);
+    }
+    blockquote {
+        font-size: var(--font-size-s) !important;
+    }
 }
 
 /*** 3. MAIN SECTION ***/
