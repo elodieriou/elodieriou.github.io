@@ -32,10 +32,6 @@
 /* Bases
     ============================= */
 
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -63,6 +59,26 @@ html {
     color: var(--color-red);
 }
 
+.bg-black {
+    background-color: var(--color-black) !important;
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
 /* Burger button
     ============================= */
 
@@ -71,7 +87,7 @@ html {
     font-size: var(--font-size-l);
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 991px) {
 
     #burger-btn:checked ~ #burger-icon .custom-burger-icon {
         border-color: var(--color-blue);
@@ -108,22 +124,22 @@ h1 {
 }
 
 .padding {
-    padding-left: 2.8rem;
+    padding: 2.8rem 0;
 }
 
 .margin {
-    margin-left: 2.8rem;
+    margin: 1rem 0;
 }
 
 .badge {
     text-transform: uppercase;
     font-size: var(--font-size-m);
-    background-color: var(--color-blue);
     width: min-content;
 }
 
-@media all and (max-width: 767px) {
-    /*#biography {
-        display: none !important;
-    }*/
+/*** 3. MAIN SECTION ***/
+
+h2 {
+    font-family: var(--font-family-title);
+    color: var(--color-white);
 }

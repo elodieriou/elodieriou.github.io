@@ -13,46 +13,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <script src="https://kit.fontawesome.com/3fc762624a.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js"></script>
 </head>
 <body>
-<header class="header pb-5">
+<header class="header py-5">
     <div class="container">
         <!-- SECTION HEADER BAR -->
-        <section class="d-flex m-4">
+        <section class="d-flex mx-4">
             <!-- BURGER MENU -->
             <input class="d-none" type="checkbox" id="burger-btn">
-            <label class="d-block d-md-none" id="burger-icon" for="burger-btn">
+            <label class="d-block d-lg-none" id="burger-icon" for="burger-btn">
                 <i class="custom-burger-icon rounded-1 p-2 fa-solid fa-bars"></i>
             </label>
             <!-- CONTENT -->
-            <div id="header-content" class="w-100 d-flex flex-column flex-md-row align-items-center justify-content-md-between">
+            <div id="header-content" class="w-100 d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
                 <!-- LOGO -->
                 <div>
-                    <a class="d-flex flex-column flex-md-row align-items-center" href="#">
+                    <a class="d-flex flex-column flex-lg-row align-items-center" href="#">
                         <img src="images/logo-black.png" alt="Élodie Riou logo" class="mb-3 mb-sm-0" width="" height="">
                     </a>
                 </div>
                 <!-- NAVBAR -->
                 <nav class="position-relative">
-                    <ul class="nav d-flex flex-column flex-md-row align-items-center font-size-m mt-3">
+                    <ul class="nav d-flex flex-column flex-lg-row align-items-center font-size-m mt-3">
                         <li class="nav-item">
                             <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Biographie</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Situation professionnelle</a>
+                            <a href="#situation" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Situation professionnelle</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Expériences</a>
+                            <a href="#experiences" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Expériences</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black font-weight-bold p-0 m-3 pb-1">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -60,86 +66,112 @@
         </section>
         <!-- SECTION HERO -->
         <section class="w-100 d-flex flex-column align-items-center">
-            <div class="w-100 d-flex flex-column flex-md-row justify-content-around">
-                <div class="d-flex flex-column my-5">
+            <div class="w-100 col-12 d-flex flex-column flex-lg-row justify-content-around mb-5">
+                <div class="col-12 col-lg-6 d-flex flex-column mt-5">
                     <div class="d-flex justify-content-around py-3">
-                        <a tabindex="0" class="fa-solid fa-motorcycle font-size-l color-red text-decoration-none"
+                        <a tabindex="0" class="fa-solid fa-motorcycle cursor font-size-l color-red text-decoration-none"
                            data-bs-container="body" data-bs-toggle="popover"
-                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-placement="top"
                            data-bs-content="Mon père m'a transmis cette passion, cette liberté et cette adrénaline de manière responsable"></a>
-                        <a tabindex="0" class="fa-solid fa-lightbulb font-size-l color-red text-decoration-none"
+                        <a tabindex="0" class="fa-solid fa-lightbulb cursor font-size-l color-red text-decoration-none"
                            data-bs-container="body" data-bs-toggle="popover"
-                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-placement="top"
                            data-bs-content="in progress"></a>
                     </div>
                     <div class="d-flex py-3">
                         <div class="col-2 d-flex flex-column justify-content-around align-items-center px-3 color-red">
-                            <a tabindex="0" class="fa-solid fa-book font-size-l color-red text-decoration-none"
+                            <a tabindex="0" class="fa-solid fa-book cursor font-size-l color-red text-decoration-none"
                                data-bs-container="body" data-bs-toggle="popover"
-                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-placement="top"
                                data-bs-content="in progress"></a>
-                            <a tabindex="0" class="fa-solid fa-people-group font-size-l color-red text-decoration-none"
+                            <a tabindex="0" class="fa-solid fa-people-group cursor font-size-l color-red text-decoration-none"
                                data-bs-container="body" data-bs-toggle="popover"
-                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-placement="top"
                                data-bs-content="in progress"></a>
                         </div>
-                        <img src="images/me.png" alt="ma photo" class="col-8" height="" width="">
+                        <img src="images/me.png" alt="ma photo" class="col-8">
                         <div class="col-2 d-flex flex-column justify-content-around align-items-center px-3 color-red">
-                            <a tabindex="0" class="fa-solid fa-code font-size-l color-red text-decoration-none"
+                            <a tabindex="0" class="fa-solid fa-code cursor font-size-l color-red text-decoration-none"
                                data-bs-container="body" data-bs-toggle="popover"
-                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-placement="top"
                                data-bs-content="in progress"></a>
-                            <a tabindex="0" class="fa-solid fa-gamepad font-size-l color-red text-decoration-none"
+                            <a tabindex="0" class="fa-solid fa-gamepad cursor font-size-l color-red text-decoration-none"
                                data-bs-container="body" data-bs-toggle="popover"
-                               data-bs-placement="top" data-bs-trigger="focus"
+                               data-bs-placement="top"
                                data-bs-content="in progress"></a>
                         </div>
                     </div>
                     <div class="d-flex justify-content-around py-3 color-red">
-                        <a tabindex="0" class="fa-solid fa-film font-size-l color-red text-decoration-none"
+                        <a tabindex="0" class="fa-solid fa-film cursor font-size-l color-red text-decoration-none"
                            data-bs-container="body" data-bs-toggle="popover"
-                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-placement="top"
                            data-bs-content="in progress"></a>
-                        <a tabindex="0" class="fa-solid fa-cat font-size-l color-red text-decoration-none"
+                        <a tabindex="0" class="fa-solid fa-cat cursor font-size-l color-red text-decoration-none"
                            data-bs-container="body" data-bs-toggle="popover"
-                           data-bs-placement="top" data-bs-trigger="focus"
+                           data-bs-placement="top"
                            data-bs-content="in progress"></a>
                     </div>
                 </div>
 
-                <div id="biography" class="d-flex flex-column justify-content-center">
+                <div id="biography" class="col-12 col-lg-5 d-flex flex-column justify-content-center padding">
                     <div class="d-flex flex-column">
-                        <div class="padding">
-                            <h1>Élodie RIOU</h1>
-                            <p><strong>31 ans</strong></p>
-                            <img src="images/line.png" alt="separate line" height="1" width="129">
-                        </div>
-                        <div class="d-flex my-4">
-                            <img src="images/{.png" alt="curly braces open">
-                            <div class="mt-4">
-                                <p><strong>Localisation :</strong> Laval (53)</p>
-                                <p><strong>Passions :</strong> moto, manga, randonnée, VTT, jeux viédos, astrologie, animaux</p>
-                                <p><strong>Projets :</strong> dev appli mobile</p>
-                            </div>
-                            <img src="images/}.png" alt="curly braces close">
-                        </div>
-                        <img src="images/line.png" alt="separate line" class="margin" height="1" width="129">
-                        <p class="badge mt-4 margin">En reconversion professionnelle</p>
+                        <h1>Élodie RIOU</h1>
+                        <p><strong>31 ans</strong></p>
+                        <img src="images/line.png" alt="separate line" height="1" width="129">
+                        <p class="margin text-justify font-size-m">Bienvenue ! <br><br>
+                            Je m'appelle Élodie et je vis actuellement en Mayenne.
+                            Après un Master en Management des Systèmes d'Information et six années
+                            d'expérience en tant que <strong class="color-red">Product Owner</strong>, j'ai souhaité me réorienter afin
+                            de devenir <strong class="color-red">Développeuse</strong>. <br><br>
+                            Découvrez-moi au travers de mes passions et mon <strong class="color-red">parcours atypique</strong> !
+                        </p>
+                        <img src="images/line.png" alt="separate line" class="" height="1" width="129">
+                        <p class="badge bg-blue mt-4">En reconversion professionnelle</p>
                     </div>
                 </div>
             </div>
             <div class="mt-2">
-                <blockquote class="text-center">
+                <blockquote class="text-center font-size-m">
                     <q> Always leave the campground cleaner than you found it </q>
                     <cite>- Robert C. Martin (Uncle Bob)</cite>
                 </blockquote>
             </div>
-
         </section>
     </div>
-
 </header>
+<main>
+    <section id="situation" class="bg-black py-5">
+        <div class="container">
+            <header>
+                <h2 class="text-center mt-5">Situation professionnelle</h2>
+                <p class="badge bg-red my-5">Étudiante - Holberton School</p>
+            </header>
+            <div class="d-flex flex-column flex-lg-row justify-content-between mb-5">
+                <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center">
+                    <p class="text-white text-justify font-size-m m-0">En septembre 2021, j’ai intégré <strong>Holberton School Laval</strong>
+                        afin de devenir développeuse web <strong>Full Stack</strong>. <br><br>
 
+                        Il s’agit d’une formation sur 24 mois avec à l’issu un diplôme de niveau Ingénieur reconnu par l’état :
+                        <strong>RNCP niveau 6 - Concepteur Développeur d’Application</strong>. <br><br>
+
+                        <q> Actual group s’associe à Holberton School pour déployer un modèle unique d’écoles nouvelle
+                            génération dédié aux métiers du numérique et du digital. </q>
+                    </p>
+                </div>
+                <iframe class="col-12 col-lg-6" width="560" height="315" src="https://www.youtube.com/embed/ceg4gdMG34M"
+                        title="Découvrez Actual et Holberton School" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section id="experiences">
+        <div class="container">
+
+        </div>
+
+    </section>
+</main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
