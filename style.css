@@ -93,6 +93,12 @@ html {
     font-weight: bold;
 }
 
+.badge {
+    text-transform: uppercase;
+    font-size: var(--font-size-s);
+    width: min-content;
+}
+
 /* Burger button
     ============================= */
 
@@ -128,6 +134,7 @@ html {
 
 .nav-link:hover {
     color: var(--color-blue) !important;
+    border-color: var(--color-blue) !important;
 }
 
 /* Top button
@@ -155,12 +162,6 @@ h1 {
     margin: 1rem 0;
 }
 
-.badge {
-    text-transform: uppercase;
-    font-size: var(--font-size-s);
-    width: min-content;
-}
-
 @media all and (max-width: 991px) {
     .badge {
         font-size: var(--font-size-xs);
@@ -175,4 +176,38 @@ h1 {
 h2 {
     font-family: var(--font-family-title);
     color: var(--color-white);
+}
+
+/* Mon parcours
+    ============================= */
+
+.carousel-height {
+    height: 21rem;
+}
+
+.custom-link {
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+#cv:hover {
+    background-color: var(--color-black) !important;
+    color: var(--color-white);
+}
+
+@media all and (max-width: 767px) {
+
+    .center {
+        text-align: center;
+    }
+
+    .carousel-height {
+        height: 45rem;
+    }
+}
+
+/*** 4. Button top ***/
+
+#arrow-up:hover {
+    color: var(--color-red) !important;
 }
