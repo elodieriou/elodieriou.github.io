@@ -49,6 +49,10 @@ html {
     margin-right: auto;
 }
 
+.font-size-xs {
+    font-size: var(--font-size-xs);
+}
+
 .font-size-m {
     font-size: var(--font-size-m);
 }
@@ -195,15 +199,76 @@ h2 {
     color: var(--color-white);
 }
 
-@media all and (max-width: 767px) {
-
+@media all and (max-width: 991px) {
     .center {
         text-align: center;
     }
 
     .carousel-height {
+        height: 35rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .carousel-height {
         height: 45rem;
     }
+}
+
+@media all and (max-width: 545px) {
+    .carousel-height {
+        height: 50rem;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .carousel-height {
+        height: 55rem;
+    }
+}
+
+/* Mes réalisations
+    ============================= */
+
+.icons {
+    font-size: 3rem;
+}
+
+.redirect:hover {
+    color: var(--color-black) !important;
+}
+
+.transition-github {
+    width: 80px;
+    height: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.transition-demo {
+    width: 100px;
+    height: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.transition-landing-page {
+    width: 125px;
+    height: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.transition-github:hover,
+.transition-demo:hover,
+.transition-landing-page:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.disabled {
+    color: grey;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--color-black);
 }
 
 /*** 4. Button top ***/
