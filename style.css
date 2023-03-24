@@ -193,6 +193,14 @@ h2 {
 /* Mon parcours
     ============================= */
 
+.custom-padding {
+    padding-right: 1.5rem;
+}
+
+.custom-margin {
+    margin: 1rem 0;
+}
+
 .carousel-height {
     height: 21rem;
 }
@@ -250,6 +258,10 @@ h2 {
 
     .carousel-height {
         height: 35rem;
+    }
+
+    .custom-padding {
+        padding-right: 0;
     }
 }
 
