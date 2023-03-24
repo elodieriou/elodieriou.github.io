@@ -107,6 +107,8 @@ html {
     width: min-content;
 }
 
+/*** 2. HEADER ***/
+
 /* Burger button
     ============================= */
 
@@ -147,16 +149,6 @@ html {
 .nav-link:hover {
     color: var(--color-blue) !important;
     border-color: var(--color-blue) !important;
-}
-
-/* Top button
-    ============================= */
-
-.top {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
 }
 
 /*** 2. SECTION HERO ***/
@@ -356,10 +348,6 @@ h2 {
     height: 100%;
 }
 
-.front {
-
-}
-
 .back {
     transform: rotateY(180deg);
 }
@@ -442,7 +430,7 @@ textarea:valid:not(:placeholder-shown) {
     border-bottom: 0.1rem solid var(--valid-color) !important;
 }
 
-/*** 5. Footer ***/
+/*** 5. FOOTER ***/
 
 .color-grey {
     color: rgba(211, 211, 211, 0.3);
@@ -456,7 +444,14 @@ textarea:valid:not(:placeholder-shown) {
     color: var(--color-red) !important;
 }
 
-/*** 4. Button top ***/
+/*** 6. TOP BUTTON ***/
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
 
 #arrow-up:hover {
     color: var(--color-red) !important;
