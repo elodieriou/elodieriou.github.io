@@ -18,8 +18,8 @@
 :root {
     --color-white: #ffffff;
     --color-black: #071629;
-    --color-blue: #065FE5;
-    --color-blue-opacity: rgba(6, 95, 229, 0.2);
+    --color-blue: rgba(6, 95, 229, 0.8);
+    --color-light-blue: rgba(6, 95, 229, 0.2);
     --color-red: #FF6565;
 
     --error-color: #cd3e65;
@@ -83,6 +83,10 @@ html {
 
 .bg-blue {
     background-color: var(--color-blue);
+}
+
+.bg-light-blue {
+    background-color: var(--color-light-blue);
 }
 
 .bg-red {
@@ -194,7 +198,7 @@ h2 {
 }
 
 .carousel-height {
-    height: 21rem;
+    height: 25rem;
 }
 
 .custom-link {
@@ -350,6 +354,7 @@ h2 {
 
 .back {
     transform: rotateY(180deg);
+    background-color: var(--color-red);
 }
 
 .custom-skills {
@@ -367,7 +372,7 @@ h2 {
 }
 
 .form-group:focus-within {
-    background-color: var(--color-blue-opacity);
+    background-color: var(--color-light-blue);
     transition: .3s;
 }
 
