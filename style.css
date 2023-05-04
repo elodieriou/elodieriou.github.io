@@ -279,6 +279,18 @@ h2 {
     }
 }
 
+/* Mes articles
+    ============================= */
+
+.rounded-corner {
+    border-radius: 20px;
+}
+
+.transition-plus:hover {
+    transform: scale(1.5);
+    font-weight: bold;
+}
+
 /* Mes réalisations
     ============================= */
 
