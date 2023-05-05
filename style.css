@@ -248,6 +248,10 @@ h2 {
     border-radius: 6px;
 }
 
+.baby-elo:hover {
+
+}
+
 #history:hover,
 #cv:hover {
     color: var(--color-red) !important;
@@ -479,4 +483,32 @@ textarea:valid:not(:placeholder-shown) {
 
 #arrow-up:hover {
     color: var(--color-red) !important;
+}
+
+/*** 7. TIMELINE ***/
+
+.date {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 0;
+    border: .1rem solid var(--color-black);
+}
+
+.activate {
+    background-color: var(--color-red);
+    color: white;
+    font-weight: bold;
+    border: .2rem solid var(--color-black);
+    transform: scale(1.2);
+}
+
+.bar {
+    width: 8rem;
+    height: .6rem;
+    background-color: var(--color-black);
 }
