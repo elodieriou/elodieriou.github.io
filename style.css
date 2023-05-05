@@ -242,6 +242,12 @@ h2 {
     height: 6rem;
 }
 
+.baby-elo {
+    width: 20rem;
+    height: 16rem;
+    border-radius: 6px;
+}
+
 #cv:hover {
     background-color: var(--color-black) !important;
     color: var(--color-white);
