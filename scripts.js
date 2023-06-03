@@ -34,17 +34,41 @@ function activatedButton(buttonId, historyId) {
     showHistory(historyId);
 }
 
-function desactivateButton(allButtonId, allHistoryId) {
-    $(allButtonId).removeClass('activate');
+function desactivatedButton(allButtonId, allHistoryId) {
+    $(allButtonId).removeClass('activate chronology');
     hideHistory(allHistoryId);
+}
+
+function uncoloredBar() {
+    $('[id^="bar"]').removeClass('color-bar');
+}
+
+function coloredDate(allButtonId, activatedButtonId) {
+    const activatedDate = activatedButtonId.split('-')[1];
+    $(allButtonId).each((index, id) => {
+        const date = $(id).attr('id').split('-')[1];
+        if (date < activatedDate) {
+            $(`#date-${date}`).addClass('chronology');
+            coloredBar(index + 1);
+        }
+    });
+}
+
+function coloredBar(indexButton) {
+    $('[id^="bar"]').each((index, id) => {
+        const numBar = $(id).attr('id').split('-')[1];
+        if (numBar <= indexButton) $(`#bar-${numBar}`).addClass('color-bar');
+    });
 }
 
 function onClickTimeline(allButtonId, allHistoryId) {
     $(allButtonId).click((event) => {
         const buttonId = `#${event.target.id}`;
         const historyId = `#history-${buttonId.split('-')[1]}`;
-        desactivateButton(allButtonId, allHistoryId);
+        desactivatedButton(allButtonId, allHistoryId);
         activatedButton(buttonId, historyId);
+        uncoloredBar();
+        coloredDate(allButtonId, buttonId);
     });
 }
 

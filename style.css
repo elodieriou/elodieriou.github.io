@@ -21,6 +21,7 @@
     --color-blue: rgba(6, 95, 229, 0.8);
     --color-light-blue: rgba(6, 95, 229, 0.2);
     --color-red: #FF6565;
+    --color-light-red: rgba(255, 101, 101, 0.5);
 
     --error-color: #cd3e65;
     --valid-color: #08805b;
@@ -496,21 +497,32 @@ textarea:valid:not(:placeholder-shown) {
     align-items: center;
     background-color: white;
     margin-bottom: 0;
-    border: .1rem solid var(--color-black);
+    border: .2rem solid var(--color-black);
 }
 
 .activate {
     background-color: var(--color-red);
     color: white;
     font-weight: bold;
+    border-radius: 50%;
     border: .3rem solid var(--color-black);
     transform: scale(1.2);
+}
+
+.chronology {
+    background-color: var(--color-light-red);
+    font-weight: normal;
+    border: none;
 }
 
 .bar {
     width: 8rem;
     height: .6rem;
     background-color: var(--color-black);
+}
+
+.color-bar {
+    background-color: var(--color-light-red);
 }
 
 .history {
