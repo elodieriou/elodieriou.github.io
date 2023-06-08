@@ -488,6 +488,15 @@ textarea:valid:not(:placeholder-shown) {
 
 /*** 7. TIMELINE ***/
 
+/* Header
+    ============================= */
+.home {
+    position: absolute;
+    width: min-content;
+    top: 3rem;
+    font-size: 2rem;
+}
+
 .date {
     width: 5rem;
     height: 5rem;
@@ -500,6 +509,13 @@ textarea:valid:not(:placeholder-shown) {
     border: .2rem solid var(--color-black);
 }
 
+.color-date {
+    background-color: var(--color-light-red);
+    font-weight: normal;
+    border: none;
+    transition: background-color 1s ease;
+}
+
 .activate {
     background-color: var(--color-red);
     color: white;
@@ -507,12 +523,6 @@ textarea:valid:not(:placeholder-shown) {
     border-radius: 50%;
     border: .3rem solid var(--color-black);
     transform: scale(1.2);
-}
-
-.chronology {
-    background-color: var(--color-light-red);
-    font-weight: normal;
-    border: none;
 }
 
 .bar {
@@ -523,14 +533,69 @@ textarea:valid:not(:placeholder-shown) {
 
 .color-bar {
     background-color: var(--color-light-red);
+    transition: background-color 1s ease;
+}
+
+/* Main
+    ============================= */
+
+main {
+    min-height: 40rem;
+    max-height: 80rem;
 }
 
 .history {
     border-left: .2rem solid var(--color-red);
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+[id^="history-"] {
+    height: auto;
 }
 
 .missions {
     font-family: var(--font-family-title);
     color: var(--color-red);
+}
+
+.description {
+    height: 15rem;
+}
+
+/* Responsive
+    ============================= */
+
+@media all and (max-width: 767px) {
+    .date {
+        width: 3rem;
+        height: 3rem;
+        border: .1rem solid var(--color-black);
+    }
+
+    .activate {
+        border: .2rem solid var(--color-black);
+    }
+
+    .color-date {
+        background-color: var(--color-light-red);
+        font-weight: normal;
+        border: none;
+        transition: background-color 1s ease;
+    }
+
+    .bar {
+        width: 4rem;
+        height: .2rem;
+    }
+
+    .year {
+        flex-wrap: wrap;
+    }
+
+    .history {
+        margin-bottom: 1rem;
+    }
 }

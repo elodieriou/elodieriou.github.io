@@ -35,12 +35,12 @@ function activatedButton(buttonId, historyId) {
 }
 
 function desactivatedButton(allButtonId, allHistoryId) {
-    $(allButtonId).removeClass('activate chronology');
+    $(allButtonId).removeClass('activate color-date');
     hideHistory(allHistoryId);
 }
 
 function uncoloredBar() {
-    $('[id^="bar"]').removeClass('color-bar');
+    $('[id^="bar-"]').removeClass('color-bar');
 }
 
 function coloredDate(allButtonId, activatedButtonId) {
@@ -48,14 +48,14 @@ function coloredDate(allButtonId, activatedButtonId) {
     $(allButtonId).each((index, id) => {
         const date = $(id).attr('id').split('-')[1];
         if (date < activatedDate) {
-            $(`#date-${date}`).addClass('chronology');
+            $(`#date-${date}`).addClass('color-date');
             coloredBar(index + 1);
         }
     });
 }
 
 function coloredBar(indexButton) {
-    $('[id^="bar"]').each((index, id) => {
+    $('[id^="bar-"]').each((index, id) => {
         const numBar = $(id).attr('id').split('-')[1];
         if (numBar <= indexButton) $(`#bar-${numBar}`).addClass('color-bar');
     });

@@ -25,6 +25,9 @@
 <body>
 <header>
     <div class="container">
+        <a href="index.html#experiences" class="col-1 fa-solid fa-house color-black text-decoration-none home"
+           data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+           data-bs-title="Revenir à mes expériences récentes"></a>
         <h2 class="text-center color-black font-size-xxl py-5">Mon histoire</h2>
         <div class="d-flex align-items-center justify-content-center my-4">
             <button id="date-2006" class="date activate" type="button">2006</button>
@@ -33,129 +36,264 @@
             <span id="bar-2" class="bar"></span>
             <button id="date-2010" class="date" type="button">2010</button>
             <span id="bar-3" class="bar"></span>
-            <button id="date-2011" class="date" type="button">2011</button>
-            <span id="bar-4" class="bar"></span>
             <button id="date-2012" class="date" type="button">2012</button>
-            <span id="bar-5" class="bar"></span>
+            <span id="bar-4" class="bar"></span>
             <button id="date-2013" class="date" type="button">2013</button>
-            <span id="bar-6" class="bar"></span>
+            <span id="bar-5" class="bar"></span>
             <button id="date-2014" class="date" type="button">2014</button>
-            <span id="bar-7" class="bar"></span>
+            <span id="bar-6" class="bar"></span>
             <button id="date-2015" class="date" type="button">2015</button>
         </div>
     </div>
 </header>
-<main class="scrollable">
+<main class="">
     <section class="py-5">
         <div class="container">
-            <div class="">
-                <div id="history-2006" class="d-block d-flex flex-column align-items-center">
-                    <div class="col-12 col-md-6 rounded shadow-lg history">
-                        <div class="text-center">
-                            <h3>Baby-sitting</h3>
-                            <h5>Au sein d'une famille boulangère</h5>
-                            <p>2006-2008</p>
-                        </div>
-                        <p class="text-justify">Pendant 3 ans, je me suis occupée le weekend et les mercredis durant
-                        les vacances scolaires de 2 jeunes enfants au sein d'une famille boulangère. Je me souviens,
-                        c'était incroyable d'être autonome à cet âge pour sortir avec les amis et se faire plaisir.</p>
-                        <div class="d-flex flex-column">
-                            <h4 class="missions text-left">Détail des missions :</h4>
-                            <div class="d-flex flex-wrap justify-content-around">
-                                <p class="badge color-black bg-light-blue">Réveil</p>
-                                <p class="badge color-black bg-light-blue">Préparer pour l'école</p>
-                                <p class="badge color-black bg-light-blue">Aide aux repas</p>
-                                <p class="badge color-black bg-light-blue">Trajet à l'école</p>
-                                <p class="badge color-black bg-light-blue">Activités</p>
-                            </div>
+            <div id="history-2006" class="d-block d-flex flex-column align-items-center year">
+                <div class="col-12 col-md-6 rounded shadow-lg history">
+                    <div class="text-center">
+                        <h3>Baby-sitting</h3>
+                        <h5>Au sein d'une famille boulangère</h5>
+                        <p>2006-2008</p>
+                    </div>
+                    <p class="text-justify">Pendant 3 ans, je me suis occupée le weekend et les mercredis durant
+                    les vacances scolaires de 2 jeunes enfants au sein d'une famille boulangère. Je me souviens,
+                    c'était incroyable d'être autonome à cet âge pour sortir avec les amis et se faire plaisir.</p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Réveil</p>
+                            <p class="badge color-black bg-light-blue">Préparer pour l'école</p>
+                            <p class="badge color-black bg-light-blue">Aide aux repas</p>
+                            <p class="badge color-black bg-light-blue">Trajet à l'école</p>
+                            <p class="badge color-black bg-light-blue">Activités</p>
                         </div>
                     </div>
                 </div>
-                <div id="history-2009" class="d-none d-flex flex-column align-items-center">
-                    <div class="col-12 col-md-6 rounded shadow-lg history">
-                        <div class="text-center">
-                            <h3>Ramassage d'échalotes</h3>
-                            <h5>EARL Deniel, IRVILLAC (29)</h5>
-                            <p>Juillet 2009</p>
-                        </div>
-                        <p class="text-justify"></p>
-                        <div class="d-flex flex-column">
-                            <h4 class="missions text-left">Détail des missions :</h4>
-                            <div class="d-flex flex-wrap justify-content-around">
-                                <p class="badge color-black bg-light-blue">Réveil</p>
-                                <p class="badge color-black bg-light-blue">Préparer pour l'école</p>
-                                <p class="badge color-black bg-light-blue">Aide aux repas</p>
-                                <p class="badge color-black bg-light-blue">Trajet à l'école</p>
-                                <p class="badge color-black bg-light-blue">Activités</p>
-                            </div>
+            </div>
+            <div id="history-2009" class="d-none d-flex flex-column align-items-center year">
+                <div class="col-12 col-md-6 rounded shadow-lg history">
+                    <div class="text-center">
+                        <h3>Ramassage d'échalotes</h3>
+                        <h5>EARL Deniel, IRVILLAC (29)</h5>
+                        <p>Juillet 2009</p>
+                    </div>
+                    <p class="text-justify">Ayant tout juste 18 ans et le permis, je suis partie en vacances
+                        chez ma grand-mère en Bretagne. Des connaissances m'ont informé qu'une exploitation agricole cherchait
+                        des jeunes pour arracher des échalotes. Alors, je me suis laissé emmener à la découverte du monde agricole.
+                        L'ambiance était très familiale. Quand on y est et qu'on voit des champs à perte de vue, on se demande
+                        combien de temps cela va prendre même si on les arrache à quatre pattes. On apprend à ce moment-là,
+                        la dureté du travail agricole !
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Arracher les échalotes</p>
+                            <p class="badge color-black bg-light-blue">Être rapide</p>
                         </div>
                     </div>
                 </div>
-                <div id="history-2010" class="d-none d-flex align-items-center">
-                    <div class="col-6 text-center rounded shadow-lg history">
+            </div>
+            <div id="history-2010" class="d-none d-flex justify-content-around year">
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Plantation d'échalotes</h3>
                         <h5>EARL Denniel, IRVILLAC (29)</h5>
                         <p>Février 2010</p>
                     </div>
-                    <div class="col-6 text-center rounded shadow-lg history">
+                    <p class="text-justify">En février, je renouvelais l'expérience, mais c'était le moment des plantations.
+                        Un exercice plus difficile et plus long à cause du seau rempli d'échalotes à porter. De plus, sous la pluie !
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Planter les échalotes</p>
+                            <p class="badge color-black bg-light-blue">Être rapide</p>
+                            <p class="badge color-black bg-light-blue">Résister à la pluie</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2"></div>
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center ">
                         <h3>Équipière polyvalente</h3>
                         <h5>McDonald, CHOLET (49)</h5>
                         <p>Juillet 2010 - février 2011</p>
                     </div>
-                </div>
-                <div id="history-2011" class="d-none d-flex flex-column align-items-center">
-                    <div class="col-6 text-center rounded shadow-lg history">
-                        <h3>Serveuse bar/crêperie</h3>
-                        <h5>La Pergola, CHOLET (49)</h5>
-                        <p>Avril 2011 - juin 2011</p>
+                    <p class="text-justify">
+                        En juin, je postule pour travailler l'été chez McDo pour être équipière en caisse. Puis je continue
+                        sur un contrat étudiant à l'année les vacances scolaires et weekend. J'arrête en février pour me concentrer
+                        sur le BAC. C'était plutôt intense comme rythme !
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Prise de commande</p>
+                            <p class="badge color-black bg-light-blue">Service en salle</p>
+                            <p class="badge color-black bg-light-blue">Entretien du lobby</p>
+                            <p class="badge color-black bg-light-blue">Plonge</p>
+                            <p class="badge color-black bg-light-blue">Stand frites</p>
+                            <p class="badge color-black bg-light-blue">Drive</p>
+                        </div>
                     </div>
                 </div>
-                <div id="history-2012" class="d-none d-flex align-items-center">
-                    <div class="col-6 text-center rounded shadow-lg history">
+            </div>
+            <div id="history-2012" class="d-none d-flex justify-content-around year">
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Serveuse bar/crêperie</h3>
                         <h5>La Pergola, CHOLET (49)</h5>
                         <p>Avril 2012 - juin 2012</p>
                     </div>
-                    <div class="col-6 text-center rounded shadow-lg history">
+                    <p class="text-justify">
+                        Des amis de mes parents tiennent un bar/café dans un parc municipal. Ils cherchaient un extra pour
+                        les mercredis et samedis. J'ai beaucoup aimé cette expérience, car l'ambiance était familiale.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Préparation des boissons</p>
+                            <p class="badge color-black bg-light-blue">Prise des commandes</p>
+                            <p class="badge color-black bg-light-blue">Service en salle</p>
+                            <p class="badge color-black bg-light-blue">Cuisson des crêpes/gaufres</p>
+                            <p class="badge color-black bg-light-blue">Plonge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2"></div>
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Équipière polyvalente</h3>
                         <h5>Quick, CHOLET (49)</h5>
                         <p>Juillet 2012 - août 2012</p>
                     </div>
+                    <p class="text-justify">
+                        Ayant l'expérience de McDo et de la Pergola, j'ai souhaité tester Quick. Fast food à taille
+                        plus familiale. J'ai davantage apprécié cette expérience, car mes missions étaient plus variées.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Prise de commande</p>
+                            <p class="badge color-black bg-light-blue">Service en salle</p>
+                            <p class="badge color-black bg-light-blue">Entretien du lobby</p>
+                            <p class="badge color-black bg-light-blue">Préparation en cuisine</p>
+                            <p class="badge color-black bg-light-blue">Drive</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="history-2013" class="d-none d-flex align-items-center">
-                    <div class="col-6 text-center rounded shadow-lg history">
+            </div>
+            <div id="history-2013" class="d-none d-flex justify-content-around year">
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Assistante communication</h3>
                         <h5>Créactiv', NANTES (44)</h5>
                         <p>Avril 2013 - juin 2013</p>
                     </div>
-                    <div class="col-6 text-center rounded shadow-lg history">
+                    <p class="text-justify">
+                        Il s'agit de mon premier stage que j'effectue lors de ma seconde année en IUT GEA. L'objectif
+                        était de travailler sur une nouvelle communication de l'entreprise. J'ai beaucoup aimé et c'est grâce
+                        à cette expérience que je me suis découvert un côté artistique, avoir des idées et de l'imagination.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Créer une nouvelle communication</p>
+                            <p class="badge color-black bg-light-blue">Créer de nouveaux supports</p>
+                            <p class="badge color-black bg-light-blue">Étude du public visé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2"></div>
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Conseillère d'accueil</h3>
                         <h5>Banque CIC, CHOLET (49)</h5>
                         <p>Juillet 2013 - août 2013</p>
                     </div>
+                    <p class="text-justify">
+                        Cette année, pour mon job saisonnier, j'ai voulu changer de la restauration. J'ai postulé en banque. Habituellement,
+                        les postes d'auxiliaires de vacances sont réservés aux enfants des conseillers bancaires. La directrice d'agence était
+                        surprise de mon parcours et m'a donné ma chance !
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Accueil clientèle</p>
+                            <p class="badge color-black bg-light-blue">Remise de chèques</p>
+                            <p class="badge color-black bg-light-blue">Mise à jour des données</p>
+                            <p class="badge color-black bg-light-blue">Réception des documents</p>
+                            <p class="badge color-black bg-light-blue">Rappel clientèle</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="history-2014" class="d-none d-flex align-items-center">
-                    <div class="col-6 text-center rounded shadow-lg history">
+            </div>
+            <div id="history-2014" class="d-none d-flex justify-content-around year">
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Analyste financière</h3>
                         <h5>Banque CIC, CHOLET (49)</h5>
                         <p>Avril 2014 - juin 2014</p>
                     </div>
-                    <div class="col-6 text-center rounded shadow-lg history">
+                    <p class="text-justify">
+                        Ayant vraiment apprécié mon expérience en banque, j'ai souhaité effectuer mon stage de Licence 3 Gestion dans la
+                        même banque auprès de la Conseillère bancaire professionnel. J'ai réalisé sur plusieurs projets professionnels des analyses
+                        financières. Ceci permettait d'analyser la rentabilité financière du projet étudié et ainsi autoriser ou non le financement.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Rendez-vous clientèle</p>
+                            <p class="badge color-black bg-light-blue">Analyse financière des dossiers</p>
+                            <p class="badge color-black bg-light-blue">Démarchage téléphonique</p>
+                            <p class="badge color-black bg-light-blue">Suivi des dossiers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2"></div>
+                <div class="col-12 col-md-6 rounded shadow-lg history h-auto">
+                    <div class="text-center">
                         <h3>Conseillère d'accueil</h3>
                         <h5>Banque CIC, CHOLET (49)</h5>
                         <p>Juillet 2014 - août 2014</p>
                     </div>
+                    <p class="text-justify">
+                        Je renouvelle l'expérience en banque avec plus de responsabilité. J'assiste les conseillers tant particuliers que professionnels.
+                        Je constate qu'au final, le métier de Conseiller bancaire est orienté très commercial, ce qui n'est pas vraiment ma tasse de thé !
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Accueil clientèle</p>
+                            <p class="badge color-black bg-light-blue">Assistante rdv particuliers</p>
+                            <p class="badge color-black bg-light-blue">Assistante rdv professionnels</p>
+                            <p class="badge color-black bg-light-blue">Démarchage téléphonique</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="history-2015" class="d-none d-flex align-items-center">
-                    <div class="col-6 text-center rounded shadow-lg history">
+            </div>
+            <div id="history-2015" class="d-none d-flex justify-content-around year">
+                <div class="col-12 col-md-6 rounded shadow-lg history h-100">
+                    <div class="text-center">
                         <h3>Assistante chef de projet</h3>
                         <h5>Cerfrance Maine-et-Loire, ANGERS (49)</h5>
                         <p>Avril 2015 - juin 2015</p>
                     </div>
-                    <div class="col-6 text-center rounded shadow-lg history">
-                        <h3>Assistante chef de projet</h3>
-                        <h5>Farmeo, ANGERS (49)</h5>
-                        <p>Août 2015 - août 2016</p>
+                    <p class="text-justify">
+                        En première année de Master Management des Systèmes d'Information, je dois effectuer un nouveau stage. Je suis repérée par mon
+                        professeur de contrôle de gestion et système d'information et me propose de travailler sur les RICA (Réseau d'Information Comptable Agricole).
+                        Il s'agit d'une enquête annuelle réalisée au niveau Européen afin de récolter des informations comptable et technico-économique en vue
+                        d'analyser la diversité des exploitations agricoles. L'objectif était de simplifier cette démarche auprès des comptables.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <h4 class="missions text-left">Détail des missions :</h4>
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <p class="badge color-black bg-light-blue">Récupération des données</p>
+                            <p class="badge color-black bg-light-blue">Automatisation</p>
+                            <p class="badge color-black bg-light-blue">Rendre cette démarche plus aisée</p>
+                            <p class="badge color-black bg-light-blue">Assister les comptables</p>
+                            <p class="badge color-black bg-light-blue">Création de macro excel</p>
+                        </div>
                     </div>
                 </div>
             </div>
