@@ -21,6 +21,7 @@
     --color-blue: rgba(6, 95, 229, 0.8);
     --color-light-blue: rgba(6, 95, 229, 0.2);
     --color-red: #FF6565;
+    --color-light-red: rgba(255, 101, 101, 0.5);
 
     --error-color: #cd3e65;
     --valid-color: #08805b;
@@ -242,9 +243,21 @@ h2 {
     height: 6rem;
 }
 
-#cv:hover {
-    background-color: var(--color-black) !important;
-    color: var(--color-white);
+.baby-elo {
+    width: 20rem;
+    height: 16rem;
+    border-radius: 6px;
+}
+
+.baby-elo:hover {
+
+}
+
+#history:hover,
+#cv:hover,
+#recommandation:hover {
+    color: var(--color-red) !important;
+    transform: scale(1.1);
 }
 
 @media all and (max-width: 991px) {
@@ -253,7 +266,7 @@ h2 {
     }
 
     .carousel-height {
-        height: 35rem;
+        height: 45rem;
     }
 
     .custom-padding {
@@ -263,19 +276,19 @@ h2 {
 
 @media all and (max-width: 767px) {
     .carousel-height {
-        height: 45rem;
+        height: 50rem;
     }
 }
 
 @media all and (max-width: 545px) {
     .carousel-height {
-        height: 50rem;
+        height: 60rem;
     }
 }
 
 @media all and (max-width: 440px) {
     .carousel-height {
-        height: 60rem;
+        height: 70rem;
     }
 }
 
@@ -472,4 +485,118 @@ textarea:valid:not(:placeholder-shown) {
 
 #arrow-up:hover {
     color: var(--color-red) !important;
+}
+
+/*** 7. TIMELINE ***/
+
+/* Header
+    ============================= */
+.home {
+    position: absolute;
+    width: min-content;
+    top: 3rem;
+    font-size: 2rem;
+}
+
+.date {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 0;
+    border: .2rem solid var(--color-black);
+}
+
+.color-date {
+    background-color: var(--color-light-red);
+    font-weight: normal;
+    border: none;
+    transition: background-color 1s ease;
+}
+
+.activate {
+    background-color: var(--color-red);
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    border: .3rem solid var(--color-black);
+    transform: scale(1.2);
+}
+
+.bar {
+    width: 8rem;
+    height: .6rem;
+    background-color: var(--color-black);
+}
+
+.color-bar {
+    background-color: var(--color-light-red);
+    transition: background-color 1s ease;
+}
+
+/* Main
+    ============================= */
+
+#main-history {
+    min-height: 40rem;
+    max-height: 80rem;
+}
+
+.history {
+    border-left: .2rem solid var(--color-red);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+[id^="history-"] {
+    height: auto;
+}
+
+.missions {
+    font-family: var(--font-family-title);
+    color: var(--color-red);
+}
+
+.description {
+    height: 15rem;
+}
+
+/* Responsive
+    ============================= */
+
+@media all and (max-width: 767px) {
+    .date {
+        width: 3rem;
+        height: 3rem;
+        border: .1rem solid var(--color-black);
+    }
+
+    .activate {
+        border: .2rem solid var(--color-black);
+    }
+
+    .color-date {
+        background-color: var(--color-light-red);
+        font-weight: normal;
+        border: none;
+        transition: background-color 1s ease;
+    }
+
+    .bar {
+        width: 4rem;
+        height: .2rem;
+    }
+
+    .year {
+        flex-wrap: wrap;
+    }
+
+    .history {
+        margin-bottom: 1rem;
+    }
 }
