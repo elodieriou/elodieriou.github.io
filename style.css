@@ -539,7 +539,7 @@ textarea:valid:not(:placeholder-shown) {
 /* Main
     ============================= */
 
-main {
+#main-history {
     min-height: 40rem;
     max-height: 80rem;
 }
