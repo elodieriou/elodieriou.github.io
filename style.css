@@ -254,7 +254,8 @@ h2 {
 }
 
 #history:hover,
-#cv:hover {
+#cv:hover,
+#recommandation:hover {
     color: var(--color-red) !important;
     transform: scale(1.1);
 }
@@ -265,7 +266,7 @@ h2 {
     }
 
     .carousel-height {
-        height: 35rem;
+        height: 45rem;
     }
 
     .custom-padding {
@@ -275,19 +276,19 @@ h2 {
 
 @media all and (max-width: 767px) {
     .carousel-height {
-        height: 45rem;
+        height: 50rem;
     }
 }
 
 @media all and (max-width: 545px) {
     .carousel-height {
-        height: 50rem;
+        height: 60rem;
     }
 }
 
 @media all and (max-width: 440px) {
     .carousel-height {
-        height: 60rem;
+        height: 70rem;
     }
 }
 
