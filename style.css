@@ -207,6 +207,15 @@ h2 {
     font-style: italic !important;
 }
 
+.img-adventiel-new {
+    background-image: url(images/logo-adventiel-new.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 12rem;
+    height: 6rem;
+}
+
 .img-emploi {
     background-image: url(images/recherche-emploi.png);
     background-repeat: no-repeat;
